@@ -1,0 +1,11 @@
+2022.10.22 10:58:38 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/mkozi/git/coursera_EffectiveProgrammingInScala/.metals/lsp.trace.json or /home/mkozi/.cache/metals/lsp.trace.json[0m
+2022.10.22 10:58:39 INFO  logging to file /home/mkozi/git/coursera_EffectiveProgrammingInScala/.metals/metals.log[0m
+2022.10.22 10:58:39 INFO  Started: Metals version 0.11.9 in workspace '/home/mkozi/git/coursera_EffectiveProgrammingInScala' for client Visual Studio Code 1.72.2.[0m
+2022.10.22 10:58:42 INFO  time: initialize in 3.16s[0m
+2022.10.22 10:58:43 WARN  Build server is not auto-connectable.[0m
+2022.10.22 10:58:43 WARN  no build tool detected in workspace '/home/mkozi/git/coursera_EffectiveProgrammingInScala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2022.10.22 10:59:32 INFO  [0m
+2022.10.22 10:59:32 INFO  Template applied in /home/mkozi/git/coursera_EffectiveProgrammingInScala/./scala3[0m
+2022.10.22 10:59:32 INFO  [0m
+2022.10.22 10:59:32 INFO  time: ran 'giter8.Giter8' in 5.76s[0m
+2022.10.22 11:00:17 INFO  shutting down Metals[0m
