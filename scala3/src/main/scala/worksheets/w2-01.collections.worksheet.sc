@@ -117,6 +117,8 @@ list1_2.find(x => x == 33) match
 /**
   * Transforming Collections
   */
+
+// Map
 val list1_3 = List(1,2,3,4)
 list1_3.map(x => x + 1)
 list1_3
@@ -126,3 +128,112 @@ ab1_3
 val map1_3 =Map(0 -> "No", 1 -> "Yes")
 map1_3.map((k,v) => k -> (v * 2))
 map1_3
+
+// FlatMap
+List(1,2,3).flatMap(x => List())
+mutable.ArrayBuffer(1,2,3).flatMap(x => mutable.ArrayBuffer(x, x*5))
+Map(0 -> "zero", 1 -> "one").flatMap((key, value) => Map(key.toString() -> key))
+
+case class Contact2(name: String, phoneNbrs: List[String])
+val contacts = List(Contact2("bob", List("1234","5678")), Contact2("abby", List("9876", "5432")))
+contacts.flatMap(x => x.phoneNbrs)
+
+// FoldLeft (like "reduce" in other languages)
+List(1,2,3).foldLeft(0)((accum, el) => accum + el)
+List(1,2,3).foldLeft("")((accum, el) => accum + el.toString())
+List(1,2,3).foldLeft(List.empty[Int])((accum, el) => el +: accum)
+List(1,2,3).foldLeft(true)((accum, el) => el % 2 == 0)
+
+mutable.ArrayBuffer(1,2,3,4).foldLeft(1)((accum, el) => accum * el)
+
+Map(0 -> "zero", 1 -> "one").foldLeft("")((accum, el) => accum + s"${el(0)} = ${el(1)}, ")
+
+// GroupBy
+val emails = List("alice@sca.la", "bob@sca.la", "carol@earh.world")
+val domain: String => String = 
+  email => email.dropWhile(c => c!= '@').drop(1)
+val emailsByDomain = emails.groupBy(domain)
+emailsByDomain
+
+
+/**
+ * Sequences and maps - unique capabilities
+ */
+val ab1_4 = mutable.ArrayBuffer(1,2,3)
+ab1_4.head
+ab1_4.tail
+
+List(5,2,3,1,4).sortBy(x => x)
+
+val list1_4 = List("Alice" -> 42, "Bob" -> 30, "Werner" -> 77, "Owl" -> 6)
+list1_4.sortBy((_, age) => age)
+list1_4.
+sortBy((name, _) => name)
+
+val map1_4 = Map("a" -> 0, "b" -> 1, "c" -> 2)
+map1_4.get("a")
+map1_4.get("Me")
+
+
+/**
+  * Option
+  */
+case class Contact3(name: String, maybeEmail: Option[String])
+val alice3 = Contact3("Alice", Some("alice@sca.la"))
+val bob3 = Contact3("Bob", None)
+val carol3 = Contact3("Carol", Some("carol@sca.la"))
+def hasEmail(contact: Contact3) =
+  contact.maybeEmail match
+    case Some(email) => s"I have an email"
+    case None => "No email for me"
+hasEmail(alice3)
+hasEmail(bob3)
+
+alice3.maybeEmail.map(c => c.size).getOrElse(0)
+bob3.maybeEmail.map(c => c.size).getOrElse(0)
+
+alice3.maybeEmail.zip(bob3.maybeEmail)
+alice3.maybeEmail.zip(carol3.maybeEmail)
+
+// List[Int]().head // throws exception
+List[Int]().headOption
+List(1,2,3).headOption
+
+
+/**
+  * Collection Extras
+  */
+var listConcat = List(1,2,3) ++ List(4,5,6)
+var mapContat = Map("a" -> 1, "b" -> 2).++(Map("c" -> 3, "d" -> 4))
+
+var ab1_5 = mutable.ArrayBuffer("a","b")
+var ab2_5 = mutable.ArrayBuffer("c","d")
+var abConcat = ab1_5 ++ ab2_5
+
+// mutable actions
+ab1_5 ++= ab2_5  // mutates the first operand
+"z" +=: ab1_5
+val ab1_7 = mutable.ArrayBuffer("a","b","c")
+ab1_7 += "y"
+ab1_7 += "d"
+ab1_7 -= "c"
+mutable.ArrayBuffer(1,2,3,3,4,5) -= 3
+mutable.ArrayBuffer(1,2,3,3,4,5) --= mutable.ArrayBuffer(2,4)
+mutable.ArrayBuffer(1,2,3,3,4,5) --= List(2,4)
+
+List(1,2,3,4).exists(x => x < 0)
+List(1,2,3,4).exists(x => x < 2)
+List(1,2,3,4).forall(x => x % 2 == 0)
+List(2,4,6,8).forall(x => x % 2 == 0)
+
+ab1_7(0)
+ab1_7(2)
+
+// mutable map
+val map1_5 = mutable.HashMap.empty[String, Int]
+map1_5 += ("a" -> 0)
+map1_5 += ("b" -> 1)
+map1_5 += ("b" -> 2)
+map1_5 += ("c" -> 3)
+
+
