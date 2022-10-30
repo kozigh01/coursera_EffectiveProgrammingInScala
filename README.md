@@ -7,6 +7,13 @@ Course: [coursera](https://www.coursera.org/learn/effective-scala/home/week1)
 * [Scala](https://www.scala-lang.org/)j
   * [Install Scala](https://www.scala-lang.org/download/)
   * Install specific release: [releases](https://www.scala-lang.org/download/all.html)
+  * [scala library](https://www.scala-lang.org/files/archive/api/current/)
+  * Scaladex: [package library](https://index.scala-lang.org/)
+    * [Fansi](https://index.scala-lang.org/com-lihaoyi/fansi)
+    * [munit](https://index.scala-lang.org/scalameta/munit)
+    * plugins:
+      * [sbt-errors-summary](https://index.scala-lang.org/duhemm/sbt-errors-summary)
+      * [sbt-site](https://index.scala-lang.org/sbt/sbt-site)
 * [Coursier](https://get-coursier.io/)
 
 ## Setup for WSL2
