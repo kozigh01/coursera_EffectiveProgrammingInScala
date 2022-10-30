@@ -8,5 +8,14 @@ lazy val root = project
 
     scalaVersion := scala3Version,
 
-    libraryDependencies += "org.scalameta" %% "munit" % "0.7.29" % Test
+    libraryDependencies ++= Seq(
+      "org.scalameta" %% "munit" % "0.7.29" % Test,
+      "com.lihaoyi" %% "fansi" % "0.4.0"
+    ),
+
+    makeSite / mappings := {
+      val indexFile = target.value / "index.html"
+      IO.write(indexFile, "<h1>Hello, sbt!</h1>")
+      Seq(indexFile -> "index.html")
+    }
   )
