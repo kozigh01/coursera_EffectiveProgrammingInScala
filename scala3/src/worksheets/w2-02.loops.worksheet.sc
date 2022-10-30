@@ -39,8 +39,8 @@ factorial4(5)
  * Basketball shot example
  */
 case class Position(x: Double, y: Double):
-  def distanceTo(that: Position): Double = ???
-  def distanceToLine(line: (Position, Position)) = ???
+  def distanceTo(that: Position): Double = 2
+  def distanceToLine(line: (Position, Position)) = 3
 
 object Position:
   val player = Position(0, 1.80)
@@ -107,3 +107,59 @@ isWinningShot(angle, speed)
 /**
   * Task Management example
   */
+case class Task(name: String, duration: Int, requirements: List[Task])
+
+val csSetup = Task("cs setup", 4, Nil)
+val ide = Task("IDE", 3, Nil)
+val hack = Task("hack", 8, List(csSetup, ide))
+val deploy = Task("deploy", 3, List(hack))
+
+def maxTotalDuraton(tasks: List[Task]): Int =
+  tasks match
+    case Nil => 0
+    case head :: tail =>
+      val headDuration = totalDuration(head)
+      val tailDuration = maxTotalDuraton(tail)
+      if headDuration < tailDuration then tailDuration else headDuration
+  
+
+// def totalDuration(task: Task): Int =
+//   task.duration + maxTotalDuraton(task.requirements)
+
+// Alternate definition
+def totalDuration(task: Task): Int =
+  val requirementsMaxTotalDuration =
+    task.requirements
+      .map(totalDuration)
+      .maxOption
+      .getOrElse(0)
+  task.duration + requirementsMaxTotalDuration
+
+totalDuration(deploy)
+
+
+/**
+ *  for Syntax
+ */
+case class Contact(name: String, phoneNumbers: List[String])
+val contacts = List(
+  Contact("Bob", List("+41-1111", "2222", "+41-3333")),
+  Contact("Carol", Nil),
+  Contact("Jenni", List("+41-4444", "5555")),
+)
+
+val namesAndSwissNumbers: List[(String, String)] =
+  contacts.flatMap(c => 
+    c.phoneNumbers
+      .filter(p => p.startsWith("+41"))
+      .map(p => (c.name, p))
+  )
+
+// Alternate using for
+val namesAndSwissNumbers2: List[(String, String)] =
+  for
+    contact <- contacts
+    phoneNumber <- contact.phoneNumbers 
+    if phoneNumber.startsWith("+41")
+  yield (contact.name, phoneNumber)
+

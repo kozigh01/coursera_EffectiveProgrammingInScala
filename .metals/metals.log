@@ -10950,3 +10950,2346 @@ value < is not a member of Nothing
     Position.hoop.distanceToLine(line) < 0.01
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 2022.10.30 07:55:37 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.24s[0m
+Oct 30, 2022 12:21:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16956
+Oct 30, 2022 12:21:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16957
+Oct 30, 2022 12:21:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16958
+Oct 30, 2022 12:21:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16963
+Oct 30, 2022 12:21:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16966
+Oct 30, 2022 12:21:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16967
+Oct 30, 2022 12:21:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16969
+Oct 30, 2022 12:21:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16970
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:110:1: illegal start of definition case
+case 
+^^^^
+2022.10.30 12:21:17 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:110:16: case classes must have a parameter list; try 'case class Task()' or 'case object Task'
+case class Task
+               ^
+2022.10.30 12:21:22 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.14s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:110:23: 
+Not found: type Strin
+case class Task(name: Strin)
+                      ^^^^^
+2022.10.30 12:21:29 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.32s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:110:40: identifier expected but ) found
+case class Task(name: String, duration:)
+                                       ^
+2022.10.30 12:21:31 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.14s[0m
+Oct 30, 2022 12:21:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17047
+Oct 30, 2022 12:21:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17048
+Oct 30, 2022 12:21:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17053
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:110:47: : expected but ) found
+case class Task(name: String, duration: Int, r)
+                                              ^
+2022.10.30 12:21:33 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+Oct 30, 2022 12:21:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17064
+Oct 30, 2022 12:21:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17069
+Oct 30, 2022 12:21:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17070
+Oct 30, 2022 12:21:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17074
+Oct 30, 2022 12:21:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17075
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:110:58: : expected but ) found
+case class Task(name: String, duration: Int, requirements)
+                                                         ^
+2022.10.30 12:21:41 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.14s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:110:65: identifier expected but ] found
+case class Task(name: String, duration: Int, requirements: Task[])
+                                                                ^
+2022.10.30 12:21:45 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.16s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:110:65: identifier expected but ] found
+case class Task(name: String, duration: Int, requirements: Task[])
+                                                                ^
+2022.10.30 12:21:45 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+Oct 30, 2022 12:21:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17124
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:110:60: 
+Not found: type L
+case class Task(name: String, duration: Int, requirements: L)
+                                                           ^
+2022.10.30 12:21:50 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.3s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:110:60: 
+Missing type parameter for List
+case class Task(name: String, duration: Int, requirements: List)
+                                                           ^^^^
+2022.10.30 12:21:50 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.27s[0m
+Oct 30, 2022 12:21:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17152
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.10.30 12:21:56 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.34s[0m
+Oct 30, 2022 12:21:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17164
+Oct 30, 2022 12:21:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17165
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.10.30 12:21:58 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.31s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:112:8: = expected but end of file found
+val csS
+       ^
+2022.10.30 12:22:01 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:112:15: 
+missing argument for parameter name of method apply in object Task: (name: String, duration: Int, requirements: List[MdocApp.this.Task]): 
+  MdocApp.this.Task
+val csSetup = Task()
+              ^^^^^^
+2022.10.30 12:22:09 INFO  file:///home/mkozi/git/coursera_EffectiveProgrammingInScala/scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: stale mdoc error:
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.10.30 12:22:09 INFO  file:///home/mkozi/git/coursera_EffectiveProgrammingInScala/scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:112:15: stale mdoc error:
+missing argument for parameter name of method apply in object Task: (name: String, duration: Int, requirements: List[MdocApp.this.Task]): 
+  MdocApp.this.Task
+val csSetup = Task()
+              ^^^^^^[0m
+2022.10.30 12:22:09 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 1.12s[0m
+2022.10.30 12:22:09 INFO  file:///home/mkozi/git/coursera_EffectiveProgrammingInScala/scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: stale mdoc error:
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2022.10.30 12:22:09 INFO  file:///home/mkozi/git/coursera_EffectiveProgrammingInScala/scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:112:15: stale mdoc error:
+missing argument for parameter name of method apply in object Task: (name: String, duration: Int, requirements: List[MdocApp.this.Task]): 
+  MdocApp.this.Task
+val csSetup = Task()
+              ^^^^^^[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:112:29: unclosed character literal
+val csSetup = Task('cs setup')
+                            ^
+2022.10.30 12:22:09 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.15s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:112:30: unclosed string interpolation
+val csSetup = Task('cs setup")
+                             ^
+2022.10.30 12:22:13 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 94ms[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:112:15: 
+missing argument for parameter duration of method apply in object Task: (name: String, duration: Int, requirements: List[MdocApp.this.Task]): 
+  MdocApp.this.Task
+val csSetup = Task("cs setup")
+              ^^^^^^^^^^^^^^^^
+2022.10.30 12:22:17 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.29s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:112:15: 
+missing argument for parameter requirements of method apply in object Task: (name: String, duration: Int, requirements: List[MdocApp.this.Task]): 
+  MdocApp.this.Task
+val csSetup = Task("cs setup", 4)
+              ^^^^^^^^^^^^^^^^^^^
+2022.10.30 12:22:20 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.31s[0m
+Oct 30, 2022 12:22:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17274
+Oct 30, 2022 12:22:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17280
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.10.30 12:22:26 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.29s[0m
+Oct 30, 2022 12:22:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17317
+Oct 30, 2022 12:22:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17318
+Oct 30, 2022 12:22:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17322
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:113:4: illegal start of simple pattern
+val
+   ^
+2022.10.30 12:22:31 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:113:8: = expected but end of file found
+val ide
+       ^
+2022.10.30 12:22:31 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.10.30 12:22:37 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.3s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:113:11: 
+missing argument for parameter duration of method apply in object Task: (name: String, duration: Int, requirements: List[MdocApp.this.Task]): 
+  MdocApp.this.Task
+val ide = Task("")
+          ^^^^^^^^
+2022.10.30 12:22:37 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.37s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:113:22: illegal start of simple expression
+val ide = Task("IDE",)
+                     ^
+2022.10.30 12:22:41 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.17s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:113:11: 
+missing argument for parameter requirements of method apply in object Task: (name: String, duration: Int, requirements: List[MdocApp.this.Task]): 
+  MdocApp.this.Task
+val ide = Task("IDE", 3)
+          ^^^^^^^^^^^^^^
+2022.10.30 12:22:41 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.36s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.10.30 12:22:46 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.29s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:114:4: illegal start of simple pattern
+val
+   ^
+2022.10.30 12:22:46 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.11s[0m
+Oct 30, 2022 12:22:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17418
+Oct 30, 2022 12:22:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17421
+Oct 30, 2022 12:22:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17423
+Oct 30, 2022 12:22:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17424
+Oct 30, 2022 12:22:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17425
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:114:12: 
+Not found: Tass
+val hack = Tass
+           ^^^^
+2022.10.30 12:22:51 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.26s[0m
+Oct 30, 2022 12:22:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17446
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:114:12: 
+missing argument for parameter name of method apply in object Task: (name: String, duration: Int, requirements: List[MdocApp.this.Task]): 
+  MdocApp.this.Task
+val hack = Task()
+           ^^^^^^
+2022.10.30 12:22:56 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.34s[0m
+Oct 30, 2022 12:22:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17466
+Oct 30, 2022 12:22:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17467
+Oct 30, 2022 12:22:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17469
+Oct 30, 2022 12:22:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17470
+Oct 30, 2022 12:22:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17475
+Oct 30, 2022 12:22:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17476
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:114:12: 
+missing argument for parameter duration of method apply in object Task: (name: String, duration: Int, requirements: List[MdocApp.this.Task]): 
+  MdocApp.this.Task
+val hack = Task("Hack")
+           ^^^^^^^^^^^^
+2022.10.30 12:23:00 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.3s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:114:25: illegal start of simple expression
+val hack = Task("Hack", )
+                        ^
+Oct 30, 2022 12:23:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17497
+2022.10.30 12:23:04 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.17s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.10.30 12:23:08 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.3s[0m
+Oct 30, 2022 12:23:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17549
+Oct 30, 2022 12:23:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17550
+Oct 30, 2022 12:23:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17551
+Oct 30, 2022 12:23:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17556
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:114:42: illegal start of simple expression
+val hack = Task("Hack", 8, List(csSetup, ))
+                                         ^
+2022.10.30 12:23:15 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.22s[0m
+Oct 30, 2022 12:23:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17561
+Oct 30, 2022 12:23:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17563
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.10.30 12:23:17 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.38s[0m
+Oct 30, 2022 12:23:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17576
+Oct 30, 2022 12:23:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17580
+Oct 30, 2022 12:23:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17604
+Oct 30, 2022 12:23:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17608
+Oct 30, 2022 12:23:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17610
+Oct 30, 2022 12:23:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17611
+Oct 30, 2022 12:23:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17612
+Oct 30, 2022 12:23:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17613
+Oct 30, 2022 12:23:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17614
+Oct 30, 2022 12:23:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17617
+Oct 30, 2022 12:23:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17621
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:115:14: 
+missing argument for parameter duration of method apply in object Task: (name: String, duration: Int, requirements: List[MdocApp.this.Task]): 
+  MdocApp.this.Task
+val deploy = Task("")
+             ^^^^^^^^
+2022.10.30 12:23:27 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.39s[0m
+Oct 30, 2022 12:23:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17627
+Oct 30, 2022 12:23:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17628
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:115:14: 
+missing argument for parameter duration of method apply in object Task: (name: String, duration: Int, requirements: List[MdocApp.this.Task]): 
+  MdocApp.this.Task
+val deploy = Task("dploy")
+             ^^^^^^^^^^^^^
+2022.10.30 12:23:30 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.39s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:115:14: 
+missing argument for parameter duration of method apply in object Task: (name: String, duration: Int, requirements: List[MdocApp.this.Task]): 
+  MdocApp.this.Task
+val deploy = Task("deploy")
+             ^^^^^^^^^^^^^^
+2022.10.30 12:23:31 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.42s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:115:14: 
+missing argument for parameter duration of method apply in object Task: (name: String, duration: Int, requirements: List[MdocApp.this.Task]): 
+  MdocApp.this.Task
+val deploy = Task("deploy")
+             ^^^^^^^^^^^^^^
+2022.10.30 12:23:34 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.33s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:115:29: illegal start of simple expression
+val deploy = Task("deploy", )
+                            ^
+2022.10.30 12:23:40 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.14s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:115:29: illegal start of simple expression
+val deploy = Task("deploy", )
+                            ^
+2022.10.30 12:23:40 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+Oct 30, 2022 12:23:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17686
+Oct 30, 2022 12:23:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17694
+Oct 30, 2022 12:23:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17699
+Oct 30, 2022 12:23:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17709
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:115:32: 
+Found:    collection.immutable.List.type
+Required: List[MdocApp.this.Task]
+val deploy = Task("deploy", 3, List)
+                               ^^^^
+2022.10.30 12:23:46 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.33s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:115:37: 
+Not found: Ha
+val deploy = Task("deploy", 3, List(Ha))
+                                    ^^
+2022.10.30 12:23:48 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.32s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.10.30 12:23:51 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.35s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.10.30 12:23:54 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.33s[0m
+Oct 30, 2022 12:25:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17770
+Oct 30, 2022 12:25:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17774
+Oct 30, 2022 12:25:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17776
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:117:5: Procedure syntax is not supported. Convert procedure `totalDuratio` to method by adding `: Unit =`.
+def totalDuratio
+    ^^^^^^^^^^^^
+2022.10.30 12:25:18 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.21s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:117:23: : expected but ) found
+def totalDuration(task)
+                      ^
+2022.10.30 12:25:21 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:117:5: Procedure syntax is not supported. Convert procedure `totalDuration` to method by adding `: Unit =`.
+def totalDuration(task: Task)
+    ^^^^^^^^^^^^^
+2022.10.30 12:25:24 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.17s[0m
+Oct 30, 2022 12:25:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17824
+Oct 30, 2022 12:25:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17825
+Oct 30, 2022 12:25:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17826
+Oct 30, 2022 12:25:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17828
+Oct 30, 2022 12:25:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17832
+Oct 30, 2022 12:25:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17834
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:117:30: = expected but identifier found
+def totalDuration(task: Task)L Ubt
+                             ^
+2022.10.30 12:25:29 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.15s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:117:30: = expected but identifier found
+def totalDuration(task: Task)L 
+                             ^
+2022.10.30 12:25:37 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.11s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:117:5: Procedure syntax is not supported. Convert procedure `totalDuration` to method by adding `: Unit =`.
+def totalDuration(task: Task)
+    ^^^^^^^^^^^^^
+2022.10.30 12:25:39 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+Oct 30, 2022 12:25:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17853
+Oct 30, 2022 12:25:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17854
+Oct 30, 2022 12:25:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17864
+Oct 30, 2022 12:25:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17865
+Oct 30, 2022 12:25:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17866
+Oct 30, 2022 12:25:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17867
+Oct 30, 2022 12:25:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17868
+Oct 30, 2022 12:25:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17869
+Oct 30, 2022 12:25:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17873
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:117:39: identifier expected but ] found
+def totalDuration(task: Task): IArray[]
+                                      ^
+2022.10.30 12:25:46 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+Oct 30, 2022 12:25:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17889
+Oct 30, 2022 12:25:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17890
+Oct 30, 2022 12:25:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17891
+Oct 30, 2022 12:25:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17895
+Oct 30, 2022 12:25:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17896
+Oct 30, 2022 12:25:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17897
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:117:32: 
+Not found: type I
+def totalDuration(task: Task): I
+                               ^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:117:5: 
+Declaration of method totalDuration not allowed here: only classes can have declared but undefined members
+def totalDuration(task: Task): I
+    ^
+2022.10.30 12:25:49 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.36s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:117:5: 
+Declaration of method totalDuration not allowed here: only classes can have declared but undefined members
+def totalDuration(task: Task): Int
+    ^
+2022.10.30 12:25:49 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.3s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:117:5: 
+Declaration of method totalDuration not allowed here: only classes can have declared but undefined members
+def totalDuration(task: Task): Int 
+    ^
+2022.10.30 12:25:52 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.31s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: 
+w2-02.loops.worksheet.sc:186 (mdoc generated code) 
+ Found:    Unit
+Required: Int
+    $doc.endStatement();
+
+
+2022.10.30 12:25:52 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.39s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:118:8: identifier expected but outdent found
+  task.
+       ^
+2022.10.30 12:25:56 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+Oct 30, 2022 12:26:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17958
+Oct 30, 2022 12:26:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17959
+Oct 30, 2022 12:26:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17960
+Oct 30, 2022 12:26:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17962
+Oct 30, 2022 12:26:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17964
+Oct 30, 2022 12:26:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17965
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:118:17: 
+expression expected but unindent found
+  task.duration + 
+                ^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.10.30 12:26:02 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.31s[0m
+Oct 30, 2022 12:26:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17982
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:118:19: 
+Not found: maxTotalDuraton
+  task.duration + maxTotalDuraton
+                  ^^^^^^^^^^^^^^^
+2022.10.30 12:26:10 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.3s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:118:19: 
+Not found: maxTotalDuraton
+  task.duration + maxTotalDuraton()
+                  ^^^^^^^^^^^^^^^
+2022.10.30 12:26:10 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.36s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:118:19: 
+Not found: maxTotalDuraton
+  task.duration + maxTotalDuraton(task.requirements)
+                  ^^^^^^^^^^^^^^^
+2022.10.30 12:26:14 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.28s[0m
+Oct 30, 2022 12:26:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18043
+Oct 30, 2022 12:26:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18045
+Oct 30, 2022 12:26:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18047
+Oct 30, 2022 12:26:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18048
+Oct 30, 2022 12:26:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18049
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:117:1: 
+Not found: d
+d
+^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:120:19: 
+Not found: maxTotalDuraton
+  task.duration + maxTotalDuraton(task.requirements)
+                  ^^^^^^^^^^^^^^^
+2022.10.30 12:26:20 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.43s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:119:1: identifier expected but def found
+def totalDuration(task: Task): Int =
+^^^
+2022.10.30 12:26:20 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:117:5: Procedure syntax is not supported. Convert procedure `maxTotalDuraton` to method by adding `: Unit =`.
+def maxTotalDuraton
+    ^^^^^^^^^^^^^^^
+2022.10.30 12:26:27 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.11s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:117:5: Procedure syntax is not supported. Convert procedure `maxTotalDuraton` to method by adding `: Unit =`.
+def maxTotalDuraton()
+    ^^^^^^^^^^^^^^^
+2022.10.30 12:26:31 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:117:5: Procedure syntax is not supported. Convert procedure `maxTotalDuraton` to method by adding `: Unit =`.
+def maxTotalDuraton(tasks: List)
+    ^^^^^^^^^^^^^^^
+2022.10.30 12:26:38 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.14s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:117:5: Procedure syntax is not supported. Convert procedure `maxTotalDuraton` to method by adding `: Unit =`.
+def maxTotalDuraton(tasks: List[Task])
+    ^^^^^^^^^^^^^^^
+2022.10.30 12:26:42 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.11s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:120:1: illegal start of simple expression
+def totalDuration(task: Task): Int =
+^^^
+2022.10.30 12:26:44 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.17s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:118:3: 
+value ma is not a member of List[MdocApp.this.Task] - did you mean tasks.map?
+  tasks.ma
+  ^^^^^^^^
+2022.10.30 12:26:57 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.3s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:118:12: 
+No implicit Ordering defined for MdocApp.this.Task..
+I found:
+
+    scala.math.Ordering.ordered[MdocApp.this.Task](
+      /* missing */summon[scala.math.Ordering.AsComparable[MdocApp.this.Task]]
+    )
+
+But no implicit values were found that match type scala.math.Ordering.AsComparable[MdocApp.this.Task].
+  tasks.max
+           ^
+2022.10.30 12:26:57 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.35s[0m
+Oct 30, 2022 12:27:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18161
+Oct 30, 2022 12:27:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18163
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:121:3: 
+None of the overloaded alternatives of method + in class Int with types
+ (x: Double): Double
+ (x: Float): Float
+ (x: Long): Long
+ (x: Int): Int
+ (x: Char): Int
+ (x: Short): Int
+ (x: Byte): Int
+ (x: String): String
+match arguments (List[MdocApp.this.Task])
+  task.duration + maxTotalDuraton(task.requirements)
+  ^^^^^^^^^^^^^^^
+2022.10.30 12:27:45 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.44s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:120:1: ; expected but def found
+def totalDuration(task: Task): Int =
+^^^
+2022.10.30 12:27:45 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:122:1: illegal start of simple pattern
+def totalDuration(task: Task): Int =
+^^^
+2022.10.30 12:27:48 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.14s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:122:1: illegal start of simple pattern
+def totalDuration(task: Task): Int =
+^^^
+2022.10.30 12:27:49 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.19s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:119:14: => expected but = found
+    case Nil =
+             ^
+2022.10.30 12:27:52 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.10.30 12:27:55 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.43s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.10.30 12:27:57 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.43s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:123:1: => expected but def found
+def totalDuration(task: Task): Int =
+^^^
+2022.10.30 12:28:26 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:123:1: => expected but def found
+def totalDuration(task: Task): Int =
+^^^
+2022.10.30 12:28:26 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.14s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:124:3: 
+None of the overloaded alternatives of method + in class Int with types
+ (x: Double): Double
+ (x: Float): Float
+ (x: Long): Long
+ (x: Int): Int
+ (x: Char): Int
+ (x: Short): Int
+ (x: Byte): Int
+ (x: String): String
+match arguments (AnyVal)
+  task.duration + maxTotalDuraton(task.requirements)
+  ^^^^^^^^^^^^^^^
+2022.10.30 12:28:30 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.34s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:121:10: illegal start of simple pattern
+      val
+         ^
+2022.10.30 12:28:32 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.14s[0m
+Oct 30, 2022 12:28:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18269
+Oct 30, 2022 12:28:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18270
+Oct 30, 2022 12:28:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18286
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:121:23: = expected but outdent found
+      val headDuratoin
+                      ^
+2022.10.30 12:28:37 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.15s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:121:23: = expected but outdent found
+      val headDuration 
+                      ^
+2022.10.30 12:28:38 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:121:25: illegal start of simple expression
+      val headDuration = 
+                        ^
+2022.10.30 12:28:41 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:121:26: 
+Not found: tota
+      val headDuration = tota
+                         ^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:125:3: 
+None of the overloaded alternatives of method + in class Int with types
+ (x: Double): Double
+ (x: Float): Float
+ (x: Long): Long
+ (x: Int): Int
+ (x: Char): Int
+ (x: Short): Int
+ (x: Byte): Int
+ (x: String): String
+match arguments (AnyVal)
+  task.duration + maxTotalDuraton(task.requirements)
+  ^^^^^^^^^^^^^^^
+2022.10.30 12:28:47 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.36s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:121:40: 
+Not found: hea
+      val headDuration = totalDuration(hea)
+                                       ^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:125:3: 
+None of the overloaded alternatives of method + in class Int with types
+ (x: Double): Double
+ (x: Float): Float
+ (x: Long): Long
+ (x: Int): Int
+ (x: Char): Int
+ (x: Short): Int
+ (x: Byte): Int
+ (x: String): String
+match arguments (AnyVal)
+  task.duration + maxTotalDuraton(task.requirements)
+  ^^^^^^^^^^^^^^^
+2022.10.30 12:28:47 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.34s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:125:3: 
+None of the overloaded alternatives of method + in class Int with types
+ (x: Double): Double
+ (x: Float): Float
+ (x: Long): Long
+ (x: Int): Int
+ (x: Char): Int
+ (x: Short): Int
+ (x: Byte): Int
+ (x: String): String
+match arguments (AnyVal)
+  task.duration + maxTotalDuraton(task.requirements)
+  ^^^^^^^^^^^^^^^
+2022.10.30 12:28:50 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.33s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:122:10: illegal start of simple pattern
+      val
+         ^
+2022.10.30 12:28:51 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.11s[0m
+Oct 30, 2022 12:28:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18335
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:122:10: illegal start of simple pattern
+      val 
+         ^
+2022.10.30 12:28:52 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+Oct 30, 2022 12:28:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18340
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:122:16: = expected but outdent found
+      val tailD
+               ^
+2022.10.30 12:28:55 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.11s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:122:25: illegal start of simple expression
+      val tailDuration = 
+                        ^
+2022.10.30 12:29:00 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+Oct 30, 2022 12:29:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18377
+Oct 30, 2022 12:29:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18378
+Oct 30, 2022 12:29:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18379
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:122:26: 
+Not found: max
+      val tailDuration = max
+                         ^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:126:3: 
+None of the overloaded alternatives of method + in class Int with types
+ (x: Double): Double
+ (x: Float): Float
+ (x: Long): Long
+ (x: Int): Int
+ (x: Char): Int
+ (x: Short): Int
+ (x: Byte): Int
+ (x: String): String
+match arguments (AnyVal)
+  task.duration + maxTotalDuraton(task.requirements)
+  ^^^^^^^^^^^^^^^
+2022.10.30 12:29:02 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.35s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:122:26: 
+Overloaded or recursive method maxTotalDuraton needs return type
+      val tailDuration = maxTotalDuraton
+                         ^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:126:3: 
+None of the overloaded alternatives of method + in class Int with types
+ (x: Double): Double
+ (x: Float): Float
+ (x: Long): Long
+ (x: Int): Int
+ (x: Char): Int
+ (x: Short): Int
+ (x: Byte): Int
+ (x: String): String
+match arguments (AnyVal)
+  task.duration + maxTotalDuraton(task.requirements)
+  ^^^^^^^^^^^^^^^
+2022.10.30 12:29:05 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.4s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:122:26: 
+Overloaded or recursive method maxTotalDuraton needs return type
+      val tailDuration = maxTotalDuraton(tail)
+                         ^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:126:3: 
+None of the overloaded alternatives of method + in class Int with types
+ (x: Double): Double
+ (x: Float): Float
+ (x: Long): Long
+ (x: Int): Int
+ (x: Char): Int
+ (x: Short): Int
+ (x: Byte): Int
+ (x: String): String
+match arguments (AnyVal)
+  task.duration + maxTotalDuraton(task.requirements)
+  ^^^^^^^^^^^^^^^
+2022.10.30 12:29:07 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.32s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:122:26: 
+Overloaded or recursive method maxTotalDuraton needs return type
+      val tailDuration = maxTotalDuraton(tail)
+                         ^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:127:3: 
+None of the overloaded alternatives of method + in class Int with types
+ (x: Double): Double
+ (x: Float): Float
+ (x: Long): Long
+ (x: Int): Int
+ (x: Char): Int
+ (x: Short): Int
+ (x: Byte): Int
+ (x: String): String
+match arguments (AnyVal)
+  task.duration + maxTotalDuraton(task.requirements)
+  ^^^^^^^^^^^^^^^
+2022.10.30 12:29:11 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.34s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:123:9: illegal start of simple expression
+      if 
+        ^
+2022.10.30 12:29:22 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+Oct 30, 2022 12:29:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18428
+Oct 30, 2022 12:29:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18429
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:123:11: then expected but outdent found
+      if h
+          ^
+2022.10.30 12:29:24 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.16s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:123:14: then expected but outdent found
+      if head
+             ^
+2022.10.30 12:29:27 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.11s[0m
+Oct 30, 2022 12:29:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18452
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:123:22: then expected but outdent found
+      if headDuration 
+                     ^
+2022.10.30 12:29:30 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.16s[0m
+Oct 30, 2022 12:29:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18456
+Oct 30, 2022 12:29:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18458
+Oct 30, 2022 12:29:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18462
+Oct 30, 2022 12:29:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18463
+Oct 30, 2022 12:29:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18465
+Oct 30, 2022 12:29:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18466
+Oct 30, 2022 12:29:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18468
+Oct 30, 2022 12:29:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18472
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:122:26: 
+Overloaded or recursive method maxTotalDuraton needs return type
+      val tailDuration = maxTotalDuraton(tail)
+                         ^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:127:3: 
+None of the overloaded alternatives of method + in class Int with types
+ (x: Double): Double
+ (x: Float): Float
+ (x: Long): Long
+ (x: Int): Int
+ (x: Char): Int
+ (x: Short): Int
+ (x: Byte): Int
+ (x: String): String
+match arguments (AnyVal)
+  task.duration + maxTotalDuraton(task.requirements)
+  ^^^^^^^^^^^^^^^
+[33mwarning[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:123:43: 
+A pure expression does nothing in statement position; you may be omitting necessary parentheses
+      if headDuration < tailDuration then tail
+                                          ^^^^
+2022.10.30 12:29:36 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.34s[0m
+Oct 30, 2022 12:29:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18481
+Oct 30, 2022 12:29:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18482
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:126:1: illegal start of simple expression
+def totalDuration(task: Task): Int =
+^^^
+2022.10.30 12:29:40 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.15s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:122:26: 
+Overloaded or recursive method maxTotalDuraton needs return type
+      val tailDuration = maxTotalDuraton(tail)
+                         ^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:123:61: 
+Not found: hea
+      if headDuration < tailDuration then tailDuration else hea
+                                                            ^^^
+2022.10.30 12:29:41 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.36s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:122:26: 
+Overloaded or recursive method maxTotalDuraton needs return type
+      val tailDuration = maxTotalDuraton(tail)
+                         ^
+2022.10.30 12:29:42 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.35s[0m
+Oct 30, 2022 12:29:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18509
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:122:26: 
+Overloaded or recursive method maxTotalDuraton needs return type
+      val tailDuration = maxTotalDuraton(tail.re)
+                         ^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:122:42: 
+value re is not a member of List[MdocApp.this.Task] - did you mean tail.ne?
+      val tailDuration = maxTotalDuraton(tail.re)
+                                         ^^^^^^^
+2022.10.30 12:29:52 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.32s[0m
+Oct 30, 2022 12:29:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18524
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:122:26: 
+Overloaded or recursive method maxTotalDuraton needs return type
+      val tailDuration = maxTotalDuraton(tail.req)
+                         ^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:122:42: 
+value req is not a member of List[MdocApp.this.Task] - did you mean tail.eq?
+      val tailDuration = maxTotalDuraton(tail.req)
+                                         ^^^^^^^^
+2022.10.30 12:29:57 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.36s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:122:26: 
+Overloaded or recursive method maxTotalDuraton needs return type
+      val tailDuration = maxTotalDuraton(tail)
+                         ^
+2022.10.30 12:29:57 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.35s[0m
+Oct 30, 2022 12:30:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18559
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:117:41: 
+Not found: type In
+def maxTotalDuraton(tasks: List[Task]): In =
+                                        ^^
+2022.10.30 12:30:25 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.4s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.10.30 12:30:26 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.38s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.10.30 12:36:56 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.35s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:129:1: 
+Not found: total
+total
+^^^^^
+2022.10.30 12:36:57 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.41s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:129:1: 
+missing argument for parameter task of method totalDuration in class MdocApp: (task: MdocApp.this.Task): Int
+totalDuration()
+^^^^^^^^^^^^^^^
+2022.10.30 12:37:00 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.42s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.10.30 12:37:02 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.35s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.10.30 12:37:05 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.36s[0m
+2022.10.30 12:37:36 INFO  Attempting to connect to the build server...[0m
+2022.10.30 12:37:36 INFO  No build server found[0m
+2022.10.30 12:37:36 INFO  time: Connected to build server in 6ms[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.10.30 12:37:36 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.4s[0m
+2022.10.30 12:38:14 INFO  Attempting to connect to the build server...[0m
+2022.10.30 12:38:14 INFO  No build server found[0m
+2022.10.30 12:38:14 INFO  time: Connected to build server in 1ms[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.10.30 12:38:14 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.39s[0m
+2022.10.30 12:38:16 INFO  Attempting to connect to the build server...[0m
+2022.10.30 12:38:16 INFO  No build server found[0m
+2022.10.30 12:38:16 INFO  time: Connected to build server in 1ms[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.10.30 12:38:16 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.38s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:60:5: 
+value < is not a member of Nothing
+    Position.hoop.distanceToLine(line) < 0.01
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.10.30 12:38:52 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.33s[0m
+2022.10.30 12:39:02 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.64s[0m
+2022.10.30 12:39:05 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.73s[0m
+2022.10.30 12:40:16 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.7s[0m
+2022.10.30 12:40:17 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.59s[0m
+2022.10.30 12:40:18 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.59s[0m
+Oct 30, 2022 12:40:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18693
+2022.10.30 12:40:23 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.51s[0m
+Oct 30, 2022 12:40:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18717
+Oct 30, 2022 12:40:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18715
+Oct 30, 2022 12:40:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18737
+Oct 30, 2022 12:40:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18738
+Oct 30, 2022 12:40:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18740
+Oct 30, 2022 12:40:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18743
+Oct 30, 2022 12:40:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18744
+Oct 30, 2022 12:40:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18745
+Oct 30, 2022 12:40:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18755
+Oct 30, 2022 12:40:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18756
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:130:5: Procedure syntax is not supported. Convert procedure `totalDuraton` to method by adding `: Unit =`.
+def totalDuraton
+    ^^^^^^^^^^^^
+2022.10.30 12:40:33 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.11s[0m
+Oct 30, 2022 12:40:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18799
+Oct 30, 2022 12:40:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18800
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:132:14: = expected but ( found
+totalDuration(deploy)
+             ^
+2022.10.30 12:40:39 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:130:31: 
+Not found: type I
+def totalDuraton(task: Task): I
+                              ^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:130:5: 
+Declaration of method totalDuraton not allowed here: only classes can have declared but undefined members
+def totalDuraton(task: Task): I
+    ^
+2022.10.30 12:40:41 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.36s[0m
+2022.10.30 12:40:45 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.54s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:131:6: illegal start of simple pattern
+  val 
+     ^
+2022.10.30 12:40:51 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+Oct 30, 2022 12:40:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18841
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:131:14: = expected but outdent found
+  val require
+             ^
+2022.10.30 12:40:53 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.11s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:131:20: = expected but outdent found
+  val requirementsM
+                   ^
+2022.10.30 12:40:56 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:131:26: = expected but outdent found
+  val requirementsMaxTota
+                         ^
+2022.10.30 12:41:00 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.16s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:131:35: = expected but outdent found
+  val requirementsMaxTotalDuration
+                                  ^
+2022.10.30 12:41:06 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:131:37: illegal start of simple expression
+  val requirementsMaxTotalDuration =
+                                    ^
+2022.10.30 12:41:07 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:131:37: illegal start of simple expression
+  val requirementsMaxTotalDuration =
+                                    ^
+2022.10.30 12:41:11 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:132:9: 
+Found:    Unit
+Required: Int
+    task
+        ^
+2022.10.30 12:41:15 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.4s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:132:5: 
+value require is not a member of MdocApp.this.Task
+    task.require
+    ^^^^^^^^^^^^
+2022.10.30 12:41:16 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.39s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:132:22: 
+Found:    Unit
+Required: Int
+    task.requirements
+                     ^
+2022.10.30 12:41:17 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.38s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:132:5: 
+missing argument for parameter f of method map in class List: (f: MdocApp.this.Task => Any): List[Any]
+    task.requirements
+    ^
+2022.10.30 12:41:22 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.37s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:133:12: 
+Not found: total
+      .map(total)
+           ^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:133:18: 
+Found:    Unit
+Required: Int
+      .map(total)
+                 ^
+2022.10.30 12:41:24 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.37s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:133:12: 
+missing argument for parameter task of method totalDuration in class MdocApp: (task: MdocApp.this.Task): Int
+      .map(totalDuration())
+           ^^^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:133:28: 
+Found:    Unit
+Required: Int
+      .map(totalDuration())
+                           ^
+2022.10.30 12:41:24 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.42s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:136:1: ) expected but end of file found
+
+^
+2022.10.30 12:41:30 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:133:26: 
+Found:    Unit
+Required: Int
+      .map(totalDuration)
+                         ^
+2022.10.30 12:41:36 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.34s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:133:26: 
+Found:    Unit
+Required: Int
+      .map(totalDuration)
+                         ^
+2022.10.30 12:41:42 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.36s[0m
+Oct 30, 2022 12:41:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19019
+Oct 30, 2022 12:41:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19020
+Oct 30, 2022 12:41:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19022
+Oct 30, 2022 12:41:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19025
+Oct 30, 2022 12:41:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19026
+Oct 30, 2022 12:41:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19027
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:134:17: 
+Found:    Unit
+Required: Int
+      .maxOption
+                ^
+2022.10.30 12:41:52 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.36s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:135:8: identifier expected but outdent found
+      .
+       ^
+2022.10.30 12:41:57 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:135:11: 
+Found:    Unit
+Required: Int
+      .get
+          ^
+2022.10.30 12:42:00 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.35s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:132:5: 
+missing argument for parameter default of method getOrElse in class Option: (default: => Int): Int
+    task.requirements
+    ^
+2022.10.30 12:42:05 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.36s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:135:20: 
+Found:    Unit
+Required: Int
+      .getOrElse(0)
+                   ^
+2022.10.30 12:42:05 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.41s[0m
+2022.10.30 12:43:12 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.56s[0m
+Oct 30, 2022 12:43:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19095
+2022.10.30 12:43:19 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.53s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:121:26: 
+Not found: totalDuration
+      val headDuration = totalDuration(head)
+                         ^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:132:10: 
+Not found: totalDuration
+    .map(totalDuration)
+         ^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:133:15: 
+Ambiguous given instances: both object BigDecimal in object Ordering and object Long in object Ordering match type Ordering[Any] of parameter ord of method maxOption in trait IterableOnceOps
+    .maxOption
+              ^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:136:1: 
+Not found: totalDuration
+totalDuration(deploy)
+^^^^^^^^^^^^^
+2022.10.30 12:44:25 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.37s[0m
+Oct 30, 2022 12:45:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19144
+Oct 30, 2022 12:45:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19148
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:135:20: 
+Found:    Unit
+Required: Int
+      .getOrElse(0)
+                   ^
+2022.10.30 12:45:21 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.39s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:135:20: 
+Found:    Unit
+Required: Int
+      .getOrElse(0)
+                   ^
+2022.10.30 12:45:26 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.35s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:136:8: identifier expected but outdent found
+  task.
+       ^
+2022.10.30 12:45:31 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:136:19: 
+Ambiguous overload. The overloaded alternatives of method require in object Predef with types
+ (requirement: Boolean, message: => Any): Unit
+ (requirement: Boolean): Unit
+both match expected type <?>
+  task.duration + require
+                  ^^^^^^^
+2022.10.30 12:45:34 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.4s[0m
+2022.10.30 12:45:40 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.55s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:121:26: 
+Not found: totalDuration
+      val headDuration = totalDuration(head)
+                         ^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:133:12: 
+Not found: totalDuration
+      .map(totalDuration)
+           ^^^^^^^^^^^^^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:134:17: 
+Ambiguous given instances: both object BigDecimal in object Ordering and object Long in object Ordering match type Ordering[Any] of parameter ord of method maxOption in trait IterableOnceOps
+      .maxOption
+                ^
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:138:1: 
+Not found: totalDuration
+totalDuration(deploy)
+^^^^^^^^^^^^^
+2022.10.30 12:46:18 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.36s[0m
+2022.10.30 12:46:41 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.53s[0m
+Oct 30, 2022 12:56:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19245
+Oct 30, 2022 12:56:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19250
+2022.10.30 12:56:28 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.58s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:141:1: 
+Not found: /^^
+/^^
+^^^
+2022.10.30 12:56:33 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.39s[0m
+2022.10.30 12:56:35 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.61s[0m
+2022.10.30 12:56:37 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.51s[0m
+2022.10.30 12:56:37 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.55s[0m
+2022.10.30 12:56:43 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.53s[0m
+Oct 30, 2022 12:56:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19300
+Oct 30, 2022 12:56:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19306
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:141:1: unclosed comment
+/**
+^
+2022.10.30 12:56:49 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.16s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:141:1: unclosed comment
+/**:
+^
+2022.10.30 12:56:49 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+Oct 30, 2022 12:56:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19313
+Oct 30, 2022 12:56:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19314
+Oct 30, 2022 12:56:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19319
+Oct 30, 2022 12:56:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19320
+Oct 30, 2022 12:56:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19327
+Oct 30, 2022 12:56:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19328
+2022.10.30 12:56:55 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.57s[0m
+Oct 30, 2022 12:57:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19346
+Oct 30, 2022 12:57:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19348
+Oct 30, 2022 12:57:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19350
+Oct 30, 2022 12:57:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19351
+2022.10.30 12:57:01 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.55s[0m
+2022.10.30 12:57:06 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.63s[0m
+Oct 30, 2022 12:57:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19370
+Oct 30, 2022 12:57:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19372
+2022.10.30 12:57:10 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.69s[0m
+Oct 30, 2022 12:57:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19394
+Oct 30, 2022 12:57:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19398
+Oct 30, 2022 12:57:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19416
+Oct 30, 2022 12:57:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19417
+Oct 30, 2022 12:57:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19418
+Oct 30, 2022 12:57:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19420
+Oct 30, 2022 12:57:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19421
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:144:18: = expected but end of file found
+val namesAndSwiss
+                 ^
+2022.10.30 12:57:17 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.14s[0m
+Oct 30, 2022 12:57:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19426
+Oct 30, 2022 12:57:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19428
+Oct 30, 2022 12:57:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19430
+Oct 30, 2022 12:57:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19431
+Oct 30, 2022 12:57:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19437
+Oct 30, 2022 12:57:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19440
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:144:27: 
+Not found: type Li
+val namesAndSwissNumbers: Li
+                          ^^
+[31merror[39m: 
+w2-02.loops.worksheet.sc:209 (mdoc generated code) 
+ Declaration of value namesAndSwissNumbers not allowed here: only classes can have declared but undefined members
+      val namesAndSwissNumbers: Li
+
+
+2022.10.30 12:57:22 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.36s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:144:27: 
+Missing type parameter for List
+val namesAndSwissNumbers: List
+                          ^^^^
+[31merror[39m: 
+w2-02.loops.worksheet.sc:209 (mdoc generated code) 
+ Declaration of value namesAndSwissNumbers not allowed here: only classes can have declared but undefined members
+      val namesAndSwissNumbers: List
+
+
+2022.10.30 12:57:22 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.36s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:144:32: identifier expected but ] found
+val namesAndSwissNumbers: List[]
+                               ^
+2022.10.30 12:57:24 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.15s[0m
+Oct 30, 2022 12:57:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19471
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:144:40: identifier expected but ) found
+val namesAndSwissNumbers: List[(String,)]
+                                       ^
+2022.10.30 12:57:28 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.18s[0m
+[31merror[39m: 
+w2-02.loops.worksheet.sc:209 (mdoc generated code) 
+ Declaration of value namesAndSwissNumbers not allowed here: only classes can have declared but undefined members
+      val namesAndSwissNumbers: List[(String, String)]
+
+
+2022.10.30 12:57:34 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.34s[0m
+2022.10.30 12:57:38 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.6s[0m
+Oct 30, 2022 12:57:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19515
+Oct 30, 2022 12:57:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19516
+Oct 30, 2022 12:57:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19518
+Oct 30, 2022 12:57:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19519
+Oct 30, 2022 12:57:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19521
+Oct 30, 2022 12:57:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19525
+Oct 30, 2022 12:57:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19532
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:145:3: 
+Not found: conta
+  conta
+  ^^^^^
+2022.10.30 12:57:41 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.41s[0m
+Oct 30, 2022 12:57:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19535
+Oct 30, 2022 12:57:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19536
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:145:3: 
+Not found: contacts
+  contacts
+  ^^^^^^^^
+2022.10.30 12:57:44 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.35s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:145:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 12:57:49 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.11s[0m
+Oct 30, 2022 12:57:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19554
+Oct 30, 2022 12:57:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19559
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:144:50: pattern must be a value
+val namesAndSwissNumbers( List[(String, String)] =
+                                                 ^
+2022.10.30 12:57:58 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:144:49: pattern must be a value
+val namesAndSwissNumbers(List[(String, String)] =
+                                                ^
+2022.10.30 12:58:00 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+Oct 30, 2022 12:58:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19572
+Oct 30, 2022 12:58:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19573
+Oct 30, 2022 12:58:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19577
+Oct 30, 2022 12:58:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19579
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:145:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 12:58:08 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.17s[0m
+2022.10.30 12:58:45 INFO  time: evaluated worksheet 'w2-01.collections.worksheet.sc' in 5.52s[0m
+Oct 30, 2022 12:58:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19600
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:146:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 12:59:17 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:146:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 12:59:18 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:144:1: Enum cases are only allowed in enums
+case c
+^^^^
+2022.10.30 12:59:24 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.15s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:145:1: identifier expected but val found
+val namesAndSwissNumbers: List[(String, String)] =
+^^^
+2022.10.30 12:59:24 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.11s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:144:13: case classes must have a parameter list; try 'case class C()' or 'case object C'
+case class C
+            ^
+2022.10.30 12:59:26 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+Oct 30, 2022 12:59:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19659
+Oct 30, 2022 12:59:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19660
+Oct 30, 2022 12:59:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19662
+Oct 30, 2022 12:59:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19663
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:144:19: case classes must have a parameter list; try 'case class Contact()' or 'case object Contact'
+case class Contact
+                  ^
+2022.10.30 12:59:30 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.11s[0m
+Oct 30, 2022 12:59:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19673
+Oct 30, 2022 12:59:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19674
+Oct 30, 2022 12:59:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19675
+Oct 30, 2022 12:59:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19679
+Oct 30, 2022 12:59:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19680
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:144:24: : expected but ) found
+case class Contact(name)
+                       ^
+2022.10.30 12:59:35 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+Oct 30, 2022 12:59:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19720
+Oct 30, 2022 12:59:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19721
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:144:39: : expected but ) found
+case class Contact(name: String, phone)
+                                      ^
+2022.10.30 12:59:43 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:144:47: identifier expected but ) found
+case class Contact(name: String, phoneNumbers:)
+                                              ^
+2022.10.30 12:59:47 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.16s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:144:48: identifier expected but ) found
+case class Contact(name: String, phoneNumbers: )
+                                               ^
+2022.10.30 12:59:49 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:144:49: identifier or `_' expected
+case class Contact(name: String, phoneNumbers: [])
+                                                ^
+2022.10.30 12:59:51 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.15s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:144:48: identifier expected but ) found
+case class Contact(name: String, phoneNumbers: )
+                                               ^
+2022.10.30 12:59:54 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.14s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:146:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 12:59:54 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.15s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:144:48: identifier expected but ) found
+case class Contact(name: String, phoneNumbers: )
+                                               ^
+2022.10.30 12:59:57 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.2s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:146:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:00:00 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.18s[0m
+Oct 30, 2022 1:00:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19793
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:146:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:00:03 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.14s[0m
+Oct 30, 2022 1:00:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19809
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:147:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:00:08 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.14s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:147:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:00:14 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.15s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:147:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:00:14 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.15s[0m
+Oct 30, 2022 1:00:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19827
+Oct 30, 2022 1:00:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19831
+Oct 30, 2022 1:00:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19833
+Oct 30, 2022 1:00:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19836
+Oct 30, 2022 1:00:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19837
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:145:14: = expected but \n found
+val contacts 
+             ^
+2022.10.30 13:00:30 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.11s[0m
+Oct 30, 2022 1:00:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19847
+Oct 30, 2022 1:00:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19851
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:147:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:00:37 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.11s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:147:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:00:38 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.11s[0m
+Oct 30, 2022 1:00:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19893
+Oct 30, 2022 1:00:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19898
+Oct 30, 2022 1:00:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19899
+Oct 30, 2022 1:00:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19900
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:149:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:00:47 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:149:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:00:50 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:146:18: illegal start of simple expression
+  Contact("Bob", )
+                 ^
+2022.10.30 13:00:53 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+Oct 30, 2022 1:00:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19921
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:149:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:01:01 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:149:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:01:03 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.14s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:149:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:01:03 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.11s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:149:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:01:05 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.14s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:149:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:01:07 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.14s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:149:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:01:08 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:149:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:01:14 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:149:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:01:15 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.1s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:149:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:01:20 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.1s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:149:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:01:29 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.14s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:149:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:01:33 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.14s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:149:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:01:37 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.17s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:149:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:01:37 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 98ms[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:149:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:01:43 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.15s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:149:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:01:44 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.11s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:149:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:01:48 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.11s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:149:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:01:54 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.87s[0m
+Oct 30, 2022 1:01:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20099
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:151:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:01:56 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+Oct 30, 2022 1:02:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20120
+Oct 30, 2022 1:02:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20127
+Oct 30, 2022 1:02:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20130
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:151:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:02:06 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:151:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:02:07 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.18s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:151:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:02:10 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+Oct 30, 2022 1:02:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20197
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:151:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:02:26 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+Oct 30, 2022 1:02:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20233
+Oct 30, 2022 1:02:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20235
+Oct 30, 2022 1:02:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20236
+Oct 30, 2022 1:02:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20241
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:151:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:02:36 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.17s[0m
+Oct 30, 2022 1:02:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20276
+Oct 30, 2022 1:02:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20277
+Oct 30, 2022 1:02:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20278
+Oct 30, 2022 1:02:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20281
+Oct 30, 2022 1:02:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20284
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:151:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:02:42 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:151:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:02:44 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+Oct 30, 2022 1:02:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20294
+Oct 30, 2022 1:02:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20295
+Oct 30, 2022 1:02:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20297
+Oct 30, 2022 1:02:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20298
+Oct 30, 2022 1:02:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20303
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:151:3: 
+value pho is not a member of List[MdocApp.this.Contact]
+  contacts.pho
+  ^^^^^^^^^^^^
+2022.10.30 13:02:51 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.45s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:151:12: identifier expected but outdent found
+  contacts.
+           ^
+2022.10.30 13:02:55 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.17s[0m
+Oct 30, 2022 1:02:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20321
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:151:3: 
+missing argument for parameter f of method flatMap in class List: (f: MdocApp.this.Contact => IterableOnce[(String, String)]): 
+  List[(String, String)]
+  contacts.flatMap()
+  ^^^^^^^^^^^^^^^^^^
+2022.10.30 13:03:03 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.41s[0m
+Oct 30, 2022 1:03:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20330
+Oct 30, 2022 1:03:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20331
+Oct 30, 2022 1:03:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20334
+Oct 30, 2022 1:03:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20335
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:151:25: illegal start of simple expression
+  contacts.flatMap(c => )
+                        ^
+2022.10.30 13:03:08 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:151:27: identifier expected but ) found
+  contacts.flatMap(c => c.)
+                          ^
+2022.10.30 13:03:15 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.16s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:151:25: 
+Found:    (c.phoneNumbers : List[String])
+Required: IterableOnce[(String, String)]
+  contacts.flatMap(c => c.phoneNumbers)
+                        ^^^^^^^^^^^^^^
+2022.10.30 13:03:16 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.43s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:151:25: 
+Found:    (c.phoneNumbers : List[String])
+Required: IterableOnce[(String, String)]
+  contacts.flatMap(c => c.phoneNumbers
+                        ^^^^^^^^^^^^^^
+2022.10.30 13:03:22 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.46s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:152:5: 
+Found:    (c.phoneNumbers : List[String])
+Required: IterableOnce[(String, String)]
+    c.phoneNumbers
+    ^^^^^^^^^^^^^^
+2022.10.30 13:03:29 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.47s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:152:5: 
+Found:    (c.phoneNumbers : List[String])
+Required: IterableOnce[(String, String)]
+    c.phoneNumbers
+    ^^^^^^^^^^^^^^
+2022.10.30 13:03:35 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.42s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:153:8: identifier expected but outdent found
+      .
+       ^
+2022.10.30 13:03:42 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.14s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:152:5: 
+missing argument for parameter p of method filter in class List: (p: String => Boolean): List[String]
+    c.phoneNumbers
+    ^
+2022.10.30 13:03:43 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.41s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:153:20: illegal start of simple expression
+      .filter(p => )
+                   ^
+Oct 30, 2022 1:03:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20452
+Oct 30, 2022 1:03:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20454
+2022.10.30 13:03:48 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.16s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:153:20: 
+value st is not a member of String
+      .filter(p => p.st)
+                   ^^^^
+2022.10.30 13:03:52 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.44s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:152:5: 
+Found:    List[String]
+Required: IterableOnce[(String, String)]
+    c.phoneNumbers
+    ^
+2022.10.30 13:03:52 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.43s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:152:5: 
+Found:    List[String]
+Required: IterableOnce[(String, String)]
+    c.phoneNumbers
+    ^
+2022.10.30 13:03:56 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.43s[0m
+Oct 30, 2022 1:03:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20488
+Oct 30, 2022 1:03:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20489
+Oct 30, 2022 1:03:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20491
+Oct 30, 2022 1:03:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20492
+Oct 30, 2022 1:03:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20496
+Oct 30, 2022 1:03:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20498
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:152:5: 
+value m is not a member of List[String]
+    c.phoneNumbers
+    ^
+2022.10.30 13:04:01 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.41s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:152:5: 
+Found:    (String => Any) => List[Any]
+Required: IterableOnce[(String, String)]
+    c.phoneNumbers
+    ^
+2022.10.30 13:04:02 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.43s[0m
+Oct 30, 2022 1:04:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20512
+Oct 30, 2022 1:04:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20513
+Oct 30, 2022 1:04:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20515
+Oct 30, 2022 1:04:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20520
+Oct 30, 2022 1:04:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20521
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:154:16: illegal start of simple expression
+      .map(p =>)
+               ^
+2022.10.30 13:04:08 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:154:17: illegal start of simple expression
+      .map(p => )
+                ^
+2022.10.30 13:04:08 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:154:17: 
+Found:    Unit
+Required: (String, String)
+      .map(p => ())
+                ^^
+2022.10.30 13:04:12 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.41s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:154:32: illegal start of simple expression
+      .map(p => (contact.name, ))
+                               ^
+2022.10.30 13:04:19 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.1s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:154:18: 
+Not found: contact
+      .map(p => (contact.na))
+                 ^^^^^^^
+2022.10.30 13:04:19 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.51s[0m
+Oct 30, 2022 1:04:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20596
+Oct 30, 2022 1:04:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20597
+Oct 30, 2022 1:04:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20601
+Oct 30, 2022 1:04:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20606
+Oct 30, 2022 1:04:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20608
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:154:17: 
+Found:    Unit
+Required: (String, String)
+      .map(p => ())
+                ^^
+2022.10.30 13:04:24 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.47s[0m
+Oct 30, 2022 1:04:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20632
+Oct 30, 2022 1:04:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20634
+Oct 30, 2022 1:04:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20633
+Oct 30, 2022 1:04:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20629
+Oct 30, 2022 1:04:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20637
+Oct 30, 2022 1:04:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20640
+Oct 30, 2022 1:04:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20641
+Oct 30, 2022 1:04:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20642
+Oct 30, 2022 1:04:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20643
+Oct 30, 2022 1:04:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20646
+Oct 30, 2022 1:04:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20648
+Oct 30, 2022 1:04:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20649
+Oct 30, 2022 1:04:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20651
+Oct 30, 2022 1:04:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20652
+Oct 30, 2022 1:04:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20653
+Oct 30, 2022 1:04:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20659
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:154:26: 
+Found:    (c : MdocApp.this.Contact)
+Required: String
+      .map(p => (c.name, c))
+                         ^
+2022.10.30 13:04:33 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.45s[0m
+Oct 30, 2022 1:04:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20687
+Oct 30, 2022 1:04:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20691
+Oct 30, 2022 1:04:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20686
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:154:26: 
+Not found: pho
+      .map(p => (c.name, pho))
+                         ^^^
+2022.10.30 13:04:35 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.46s[0m
+2022.10.30 13:04:38 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.65s[0m
+2022.10.30 13:06:18 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.57s[0m
+2022.10.30 13:06:25 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.62s[0m
+2022.10.30 13:06:32 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.68s[0m
+2022.10.30 13:06:35 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.61s[0m
+2022.10.30 13:06:44 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.61s[0m
+2022.10.30 13:06:47 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.59s[0m
+2022.10.30 13:06:48 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.57s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:159:2: ; expected but , found
+v,
+ ^
+2022.10.30 13:06:56 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+Oct 30, 2022 1:06:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20770
+Oct 30, 2022 1:07:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20784
+Oct 30, 2022 1:07:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20786
+Oct 30, 2022 1:07:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20787
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:159:26: = expected but end of file found
+val namesAndSwissNumbers2
+                         ^
+2022.10.30 13:07:02 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.11s[0m
+Oct 30, 2022 1:07:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20803
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:159:26: = expected but end of file found
+val namesAndSwissNumbers2
+                         ^
+2022.10.30 13:07:05 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+Oct 30, 2022 1:07:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20810
+Oct 30, 2022 1:07:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20811
+Oct 30, 2022 1:07:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20815
+Oct 30, 2022 1:07:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20816
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:159:28: identifier expected but end of file found
+val namesAndSwissNumbers2: 
+                           ^
+2022.10.30 13:07:08 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:159:28: 
+Missing type parameter for List
+val namesAndSwissNumbers2: List
+                           ^^^^
+[31merror[39m: 
+w2-02.loops.worksheet.sc:229 (mdoc generated code) 
+ Declaration of value namesAndSwissNumbers2 not allowed here: only classes can have declared but undefined members
+      val namesAndSwissNumbers2: List
+
+
+2022.10.30 13:07:11 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.44s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:159:33: identifier expected but ] found
+val namesAndSwissNumbers2: List[]
+                                ^
+2022.10.30 13:07:11 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:159:35: illegal literal type (), use Unit instead
+val namesAndSwissNumbers2: List[()]
+                                  ^
+2022.10.30 13:07:16 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+Oct 30, 2022 1:07:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20859
+Oct 30, 2022 1:07:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20860
+Oct 30, 2022 1:07:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20862
+Oct 30, 2022 1:07:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20867
+Oct 30, 2022 1:07:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20877
+Oct 30, 2022 1:07:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20881
+Oct 30, 2022 1:07:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20883
+[31merror[39m: 
+w2-02.loops.worksheet.sc:229 (mdoc generated code) 
+ Declaration of value namesAndSwissNumbers2 not allowed here: only classes can have declared but undefined members
+      val namesAndSwissNumbers2: List[(String, String)]
+
+
+2022.10.30 13:07:21 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.42s[0m
+Oct 30, 2022 1:07:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20902
+Oct 30, 2022 1:07:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20903
+[31merror[39m: 
+w2-02.loops.worksheet.sc:229 (mdoc generated code) 
+ Declaration of value namesAndSwissNumbers2 not allowed here: only classes can have declared but undefined members
+      val namesAndSwissNumbers2: List[(String, String)]
+
+
+2022.10.30 13:07:23 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.42s[0m
+2022.10.30 13:07:26 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.69s[0m
+Oct 30, 2022 1:07:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20915
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:161:5: illegal start of simple pattern
+    
+    ^
+2022.10.30 13:07:31 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.1s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:161:3: illegal start of simple pattern
+  
+  ^
+2022.10.30 13:07:35 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:161:5: illegal start of simple pattern
+    
+    ^
+2022.10.30 13:07:38 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:161:14: illegal start of simple pattern
+    contact <
+             ^
+2022.10.30 13:07:43 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.1s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:161:16: illegal start of simple expression
+    contact <- 
+               ^
+2022.10.30 13:07:43 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.1s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:162:5: illegal start of simple expression
+    
+    ^
+2022.10.30 13:07:48 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.85s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:162:17: <- expected but outdent found
+    phoneNumber 
+                ^
+2022.10.30 13:07:53 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:162:22: illegal start of simple expression
+    phoneNumber <- co
+                     ^
+2022.10.30 13:07:57 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.16s[0m
+Oct 30, 2022 1:07:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21043
+Oct 30, 2022 1:07:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21050
+Oct 30, 2022 1:07:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21052
+Oct 30, 2022 1:07:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21054
+Oct 30, 2022 1:07:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21055
+Oct 30, 2022 1:07:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21056
+Oct 30, 2022 1:08:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21060
+Oct 30, 2022 1:08:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21066
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:162:40: illegal start of simple expression
+    phoneNumber <- contact.phoneNumbers
+                                       ^
+2022.10.30 13:08:04 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:162:44: illegal start of simple expression
+    phoneNumber <- contact.phoneNumbers if 
+                                           ^
+2022.10.30 13:08:15 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.12s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:162:47: illegal start of simple expression
+    phoneNumber <- contact.phoneNumbers if pho
+                                              ^
+2022.10.30 13:08:16 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+Oct 30, 2022 1:08:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21116
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:162:55: illegal start of simple expression
+    phoneNumber <- contact.phoneNumbers if phoneNumber
+                                                      ^
+2022.10.30 13:08:20 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.15s[0m
+Oct 30, 2022 1:08:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21139
+Oct 30, 2022 1:08:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21142
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:162:70: illegal start of simple expression
+    phoneNumber <- contact.phoneNumbers if phoneNumber.startsWith("")
+                                                                     ^
+2022.10.30 13:08:25 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.15s[0m
+Oct 30, 2022 1:08:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21158
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:162:71: illegal start of simple expression
+    phoneNumber <- contact.phoneNumbers if phoneNumber.startsWith("4")
+                                                                      ^
+2022.10.30 13:08:29 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.2s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:162:72: illegal start of simple expression
+    phoneNumber <- contact.phoneNumbers if phoneNumber.startsWith("41")
+                                                                       ^
+2022.10.30 13:08:30 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.15s[0m
+Oct 30, 2022 1:08:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21171
+Oct 30, 2022 1:08:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21172
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:163:5: illegal start of simple expression
+    
+    ^
+2022.10.30 13:08:35 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.18s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:163:3: 
+yield or do expected
+  y
+  ^
+2022.10.30 13:08:38 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.5s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:163:9: illegal start of simple expression
+  yield 
+        ^
+2022.10.30 13:08:43 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.11s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:163:9: 
+Found:    Unit
+Required: (String, String)
+  yield ()
+        ^^
+2022.10.30 13:08:44 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.43s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:163:10: 
+Not found: co
+  yield (co)
+         ^^
+2022.10.30 13:08:48 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.46s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:163:27: ) expected but end of file found
+  yield (contact.name, con
+                          ^
+2022.10.30 13:08:54 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.14s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:163:32: identifier expected but end of file found
+  yield (contact.name, contact.
+                               ^
+2022.10.30 13:08:57 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.16s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:163:24: illegal start of simple expression
+  yield (contact.name, 
+                       ^
+2022.10.30 13:08:59 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.16s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:163:31: ) expected but end of file found
+  yield (contact.name, phoneNb
+                              ^
+2022.10.30 13:09:02 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.13s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:163:35: ) expected but end of file found
+  yield (contact.name, phoneNumber
+                                  ^
+2022.10.30 13:09:07 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.19s[0m
+2022.10.30 13:09:07 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.66s[0m
+2022.10.30 13:09:30 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.62s[0m
+2022.10.30 13:09:30 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.64s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:165:1: 
+Not found: name
+name
+^^^^
+2022.10.30 13:09:38 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.46s[0m
+Oct 30, 2022 1:09:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21364
+2022.10.30 13:09:41 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.77s[0m
+Oct 30, 2022 1:09:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21368
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:165:22: 
+Not found: con
+namesAndSwissNumbers(con)
+                     ^^^
+2022.10.30 13:09:42 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.45s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:165:22: 
+Found:    (MdocApp.this.contacts : List[MdocApp.this.Contact])
+Required: Int
+namesAndSwissNumbers(contacts)
+                     ^^^^^^^^
+2022.10.30 13:09:44 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.48s[0m
+[31merror[39m: scala3/src/main/scala/worksheets/w2-02.loops.worksheet.sc:165:22: 
+Found:    (MdocApp.this.contacts : List[MdocApp.this.Contact])
+Required: Int
+namesAndSwissNumbers(contacts)
+                     ^^^^^^^^
+2022.10.30 13:09:46 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.52s[0m
+2022.10.30 13:10:03 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.65s[0m
+2022.10.30 13:10:20 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.65s[0m
+2022.10.30 13:11:57 INFO  time: evaluated worksheet 'w2-02.loops.worksheet.sc' in 0.7s[0m
+Oct 30, 2022 1:24:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21426
+2022.10.30 13:24:34 INFO  no build target found for /home/mkozi/git/coursera_EffectiveProgrammingInScala/scala3/src/worksheets/w2-01.collections.worksheet.sc. Using presentation compiler with project's scala-library version: 3.2.0[0m
+2022.10.30 13:24:34 INFO  time: evaluated worksheet 'w2-01.collections.worksheet.sc' in 7.41s[0m
