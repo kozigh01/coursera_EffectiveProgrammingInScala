@@ -15,6 +15,8 @@ Course: [coursera](https://www.coursera.org/learn/effective-scala/home/week1)
       * [sbt-errors-summary](https://index.scala-lang.org/duhemm/sbt-errors-summary)
       * [sbt-site](https://index.scala-lang.org/sbt/sbt-sitel)
 * [Coursier](https://get-coursier.io/)
+* [sbt](https://scala-sbt.org)  
+    * [coursera](https://www.coursera.org/learn/effective-scala/lecture/K0PFm/introduction-to-the-sbt-build-tool)
 
 ## Setup for WSL2
 * Coursier: [cli-installation](https://get-coursier.io/docs/cli-installation)
