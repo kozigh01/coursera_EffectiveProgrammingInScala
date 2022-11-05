@@ -13,7 +13,7 @@ Course: [coursera](https://www.coursera.org/learn/effective-scala/home/week1)
     * [munit](https://index.scala-lang.org/scalameta/munit)
     * plugins:
       * [sbt-errors-summary](https://index.scala-lang.org/duhemm/sbt-errors-summary)
-      * [sbt-site](https://index.scala-lang.org/sbt/sbt-site)
+      * [sbt-site](https://index.scala-lang.org/sbt/sbt-sitel)
 * [Coursier](https://get-coursier.io/)
 
 ## Setup for WSL2
@@ -37,3 +37,14 @@ Course: [coursera](https://www.coursera.org/learn/effective-scala/home/week1)
     ```
 * Clone repo for course from github
 * In repo directory, open VS Code  `$ code .`
+
+## Imports
+link: [coursera](https://www.coursera.org/learn/effective-scala/lecture/ijKTN/organize-code)
+exaples (from hypothetical file: src/main/scala/effective/example/Hello.scala):
+  ```scala
+  import effective.example.Hello // imports just Hello
+  import effective.example.Hello.foo  // imports just foo
+  import effective.example.{Hello, Bar} // imports both Hello and bar
+  import effective.example.* // scala3: imports everything from package effetive.example
+  import effective.example._ // scala2: imports everything from package effetive.example
+  ```
