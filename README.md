@@ -17,6 +17,11 @@ Course: [coursera](https://www.coursera.org/learn/effective-scala/home/week1)
 * [Coursier](https://get-coursier.io/)
 * [sbt](https://scala-sbt.org)  
     * [coursera](https://www.coursera.org/learn/effective-scala/lecture/K0PFm/introduction-to-the-sbt-build-tool)
+* Testing:
+  * [MUnit](https://scalameta.org/munit/)
+  * [MUnit ScalaCheck](https://scalameta.org/munit/docs/integrations/scalacheck.html)
+  * [ScalaMock](https://scalamock.org/)
+  * [scoverage](https://github.com/scoverage/sbt-scoverage) plugim
 
 ## Setup for WSL2
 * Coursier: [cli-installation](https://get-coursier.io/docs/cli-installation)
