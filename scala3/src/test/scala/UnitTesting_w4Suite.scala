@@ -44,29 +44,29 @@ end ProgramProperties
 // Integration testing
 
 // Setting up a resource for lifetime of single test
-class HttpServerSuite extends munit.FunSuite:
-  val withHttpServer = FunFixture[HttpServer](
-    setup = test => {
-      val httpServer = HttpServer()
-      httpServer.start(8088)
-      httpServer
-    },
-    teardown = httpSerer => httpSerer.stop()
-  )
+// class HttpServerSuite extends munit.FunSuite:
+//   val withHttpServer = FunFixture[HttpServer](
+//     setup = test => {
+//       val httpServer = HttpServer()
+//       httpServer.start(8088)
+//       httpServer
+//     },
+//     teardown = httpSerer => httpSerer.stop()
+//   )
 
-  // use http server in one test
-  withHttpServer.test("server is running") {
-    httpSerer => // Perform HTTP request here
-  }
+//   // use http server in one test
+//   withHttpServer.test("server is running") {
+//     httpSerer => // Perform HTTP request here
+//   }
 
-// Setting up a resource for all tests
-class HttpServerSuite2 extends munit.FunSuite:
-  val httpServer = HttpServer()
+// // Setting up a resource for all tests
+// class HttpServerSuite2 extends munit.FunSuite:
+//   val httpServer = HttpServer()
 
-  override def beforeAll(): Unit = httpServer.start(8888)
-  override def afterAll(): Unit = httpServer.stop()
+//   override def beforeAll(): Unit = httpServer.start(8888)
+//   override def afterAll(): Unit = httpServer.stop()
 
-  // use http server in one test
-  test("server is running") {
-    // Oerfirn Http request here
-  }
+//   // use http server in one test
+//   test("server is running") {
+//     // use Http request here
+//   }
